@@ -4,7 +4,9 @@ class SubscriptionService {
   constructor() {
     MercadoPago.configure({
       client_id: "client_id",
+      //acá va TU client_id
       client_secret: "client_secret"
+      //acá va TU client_secret
     });
   }
 
